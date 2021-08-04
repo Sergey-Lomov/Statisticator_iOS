@@ -135,10 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 671C249E26B6C3970033903F /* Build configuration list for PBXNativeTarget "Statisticator" */;
 			buildPhases = (
+				67ED5E6F26BB342E00E8D3FC /* SwiftGen */,
 				671C247026B6C3940033903F /* Sources */,
 				671C247126B6C3940033903F /* Frameworks */,
 				671C247226B6C3940033903F /* Resources */,
-				671C24D426BB287C0033903F /* ShellScript */,
+				671C24D426BB287C0033903F /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -255,7 +256,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		671C24D426BB287C0033903F /* ShellScript */ = {
+		671C24D426BB287C0033903F /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -264,6 +265,7 @@
 			);
 			inputPaths = (
 			);
+			name = SwiftLint;
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -271,6 +273,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		67ED5E6F26BB342E00E8D3FC /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "swiftgen\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
