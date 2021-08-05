@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		670F310126BC93CE00DEACFC /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670F310026BC93CE00DEACFC /* UIViewController.swift */; };
+		670F310326BC999D00DEACFC /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670F310226BC999D00DEACFC /* BaseCoordinator.swift */; };
+		670F310526BC9B4A00DEACFC /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670F310426BC9B4A00DEACFC /* Router.swift */; };
+		670F310726BC9B6800DEACFC /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670F310626BC9B6800DEACFC /* Presentable.swift */; };
+		670F310926BC9BB900DEACFC /* NavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670F310826BC9BB900DEACFC /* NavigationRouter.swift */; };
 		671C247826B6C3940033903F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671C247726B6C3940033903F /* AppDelegate.swift */; };
 		671C247A26B6C3940033903F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671C247926B6C3940033903F /* SceneDelegate.swift */; };
 		671C247C26B6C3940033903F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671C247B26B6C3940033903F /* ViewController.swift */; };
@@ -15,6 +20,11 @@
 		671C248426B6C3960033903F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 671C248226B6C3960033903F /* LaunchScreen.storyboard */; };
 		671C248F26B6C3970033903F /* StatisticatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671C248E26B6C3970033903F /* StatisticatorTests.swift */; };
 		671C249A26B6C3970033903F /* StatisticatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671C249926B6C3970033903F /* StatisticatorUITests.swift */; };
+		67ED5E7326BB34D900E8D3FC /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ED5E7226BB34D900E8D3FC /* Coordinator.swift */; };
+		67ED5E7626BB356800E8D3FC /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ED5E7526BB356700E8D3FC /* MainCoordinator.swift */; };
+		67ED5E7926BB435000E8D3FC /* SingleEventsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ED5E7826BB435000E8D3FC /* SingleEventsListController.swift */; };
+		67ED5E7B26BB436400E8D3FC /* SingleEventsListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ED5E7A26BB436400E8D3FC /* SingleEventsListCoordinator.swift */; };
+		67ED5E7D26BB43D200E8D3FC /* SingleEventsListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67ED5E7C26BB43D200E8D3FC /* SingleEventsListController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		670F310026BC93CE00DEACFC /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		670F310226BC999D00DEACFC /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		670F310426BC9B4A00DEACFC /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		670F310626BC9B6800DEACFC /* Presentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
+		670F310826BC9BB900DEACFC /* NavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouter.swift; sourceTree = "<group>"; };
 		671C247426B6C3940033903F /* Statisticator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Statisticator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		671C247726B6C3940033903F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		671C247926B6C3940033903F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +64,11 @@
 		671C249526B6C3970033903F /* StatisticatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StatisticatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		671C249926B6C3970033903F /* StatisticatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticatorUITests.swift; sourceTree = "<group>"; };
 		671C249B26B6C3970033903F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67ED5E7226BB34D900E8D3FC /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		67ED5E7526BB356700E8D3FC /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		67ED5E7826BB435000E8D3FC /* SingleEventsListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleEventsListController.swift; sourceTree = "<group>"; };
+		67ED5E7A26BB436400E8D3FC /* SingleEventsListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleEventsListCoordinator.swift; sourceTree = "<group>"; };
+		67ED5E7C26BB43D200E8D3FC /* SingleEventsListController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SingleEventsListController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +96,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		670F30FF26BC938900DEACFC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				670F310026BC93CE00DEACFC /* UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		670F310A26BC9E6E00DEACFC /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				670F310626BC9B6800DEACFC /* Presentable.swift */,
+				670F310426BC9B4A00DEACFC /* Router.swift */,
+				670F310826BC9BB900DEACFC /* NavigationRouter.swift */,
+				67ED5E7226BB34D900E8D3FC /* Coordinator.swift */,
+				670F310226BC999D00DEACFC /* BaseCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
 		671C246B26B6C3940033903F = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +139,9 @@
 		671C247626B6C3940033903F /* Statisticator */ = {
 			isa = PBXGroup;
 			children = (
+				670F30FF26BC938900DEACFC /* Extensions */,
+				67ED5E7126BB34C800E8D3FC /* General */,
+				67ED5E7026BB34B900E8D3FC /* Flows */,
 				671C247726B6C3940033903F /* AppDelegate.swift */,
 				671C247926B6C3940033903F /* SceneDelegate.swift */,
 				671C247B26B6C3940033903F /* ViewController.swift */,
@@ -126,6 +169,33 @@
 				671C249B26B6C3970033903F /* Info.plist */,
 			);
 			path = StatisticatorUITests;
+			sourceTree = "<group>";
+		};
+		67ED5E7026BB34B900E8D3FC /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				67ED5E7526BB356700E8D3FC /* MainCoordinator.swift */,
+				67ED5E7726BB42C600E8D3FC /* SingleEventsList */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		67ED5E7126BB34C800E8D3FC /* General */ = {
+			isa = PBXGroup;
+			children = (
+				670F310A26BC9E6E00DEACFC /* Coordinator */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		67ED5E7726BB42C600E8D3FC /* SingleEventsList */ = {
+			isa = PBXGroup;
+			children = (
+				67ED5E7A26BB436400E8D3FC /* SingleEventsListCoordinator.swift */,
+				67ED5E7826BB435000E8D3FC /* SingleEventsListController.swift */,
+				67ED5E7C26BB43D200E8D3FC /* SingleEventsListController.xib */,
+			);
+			path = SingleEventsList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +305,7 @@
 			files = (
 				671C248426B6C3960033903F /* LaunchScreen.storyboard in Resources */,
 				671C248126B6C3960033903F /* Assets.xcassets in Resources */,
+				67ED5E7D26BB43D200E8D3FC /* SingleEventsListController.xib in Resources */,
 				671C247F26B6C3940033903F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,8 +370,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67ED5E7926BB435000E8D3FC /* SingleEventsListController.swift in Sources */,
+				670F310326BC999D00DEACFC /* BaseCoordinator.swift in Sources */,
+				670F310926BC9BB900DEACFC /* NavigationRouter.swift in Sources */,
+				670F310526BC9B4A00DEACFC /* Router.swift in Sources */,
+				67ED5E7326BB34D900E8D3FC /* Coordinator.swift in Sources */,
 				671C247C26B6C3940033903F /* ViewController.swift in Sources */,
+				67ED5E7626BB356800E8D3FC /* MainCoordinator.swift in Sources */,
+				67ED5E7B26BB436400E8D3FC /* SingleEventsListCoordinator.swift in Sources */,
 				671C247826B6C3940033903F /* AppDelegate.swift in Sources */,
+				670F310126BC93CE00DEACFC /* UIViewController.swift in Sources */,
+				670F310726BC9B6800DEACFC /* Presentable.swift in Sources */,
 				671C247A26B6C3940033903F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
